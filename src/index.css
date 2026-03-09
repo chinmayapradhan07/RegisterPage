@@ -1,0 +1,48 @@
+/* Header container */
+.head{
+    width: 100%;
+    background: linear-gradient(135deg,#154269,#0cb0f1);
+    padding: 15px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Navbar layout */
+.head nav{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+/* Left and right heading */
+.head h2{
+    margin: 0;
+    font-size: 22px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+/* Center text */
+.head p{
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* Hover effect */
+.head h2:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+/* Responsive for small screens */
+@media (max-width:600px){
+
+    .head nav{
+        flex-direction: column;
+        gap: 5px;
+    }
+
+}
